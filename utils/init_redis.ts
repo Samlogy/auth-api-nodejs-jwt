@@ -25,4 +25,4 @@ process.on('SIGINT', () => {
   client.quit()
 })
 
-module.exports = client
+export default client

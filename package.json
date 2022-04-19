@@ -1,7 +1,7 @@
 {
   "name": "auth-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.ts",
   "repository": "https://github.com/Samlogy/auth-api-nodejs-jwt.git",
   "license": "MIT",
   "dependencies": {
@@ -29,5 +29,8 @@
     "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "dev": "nodemon app.ts"
   }
 }
